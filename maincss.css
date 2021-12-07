@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body, html {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  position: fixed;
+  background-color: #03135a;
+  width: 10%;
+  height: 100%;
+  font-weight: bold;
+}
+.sidebar .logo {
+  background-color: #092344;
+  text-align: center;
+  height: 80px;
+}
+.sidebar .logo h4 {
+  padding: 20%;
+  font-size:22px;
+  font-family: 'Architects Daughter', cursive;
+  color: #0068f0;
+  text-align: center;
+  line-height: 100%;
+}
+.sidebar .logo:hover h4 {
+  color: white;
+}
+.sidebar ul {
+  display: block;
+  font-size: 18px;
+  font-style: bold;
+  color: #000;
+  padding-left:  0;
+  text-decoration: none;
+  line-height:50px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.sidebar li a {
+  display: block;
+  font-size: 18px;
+  font-style: bold;
+  color: #000;
+  padding:  8px;
+  text-decoration: none;
+  line-height:50px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.sidebar li a:hover {
+  background-color: #092344;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .sidebar {
+    width: 20%;
+  }
+  .sidebar li a {
+    display: block;
+    font-size: 16px;
+    font-style: bold;
+    color: #000;
+    padding:  8px ;
+    text-decoration: none;
+    line-height:20px;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+}
+@media screen and (max-width: 576px){
+  .sidebar {
+    width: 20%;
+  }
+  .sidebar .li .a {
+    display: block;
+    font-size: 16px;
+    font-style: bold;
+    color: #000;
+    padding:  8px ;
+    text-decoration: none;
+    line-height:20px;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+}
+
+.section {
+  margin-left: 80px;
+}
+
+.home {
+  height: 100%;
+  background-image: url('bg_laman.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-left:0;
+  margin-right:0;
+}
+.tujuan {
+  text-align: justify;
+  height: 65%;
+  background-color: #d6d6d6;
+  color: #0E4563;
+  font-family: 'Fjalla One', sans-serif;
+  margin-right: 0%;
+  margin-left: 10%;
+  padding-top: 50px;
+}
+.tujuan h1 {
+  text-align: justify;
+  padding-top: 30%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.tujuan h3 {
+  text-align: justify;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.anggota {
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 30px;
+}
+.nama-nim {
+  column-count: 2;
+  text-align: center;
+  font-family: 'Baloo Bhaijaan 2';
+  color: #000;
+  text-transform: uppercase;
+}
+.isi {
+  text-align: justify;
+  height: 220%;
+  background-color: #ffffff;
+  color: #0E4563;
+  font-family: 'Fjalla One', sans-serif;
+  margin-right: 0%;
+  margin-left: 10%;
+  padding :2px;
+}
+.isi h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.isi .marketp {
+  text-align: justify; 
+  padding: 20px;
+}
